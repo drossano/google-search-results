@@ -128,3 +128,41 @@ body{
     width: 100%;
 }
 
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(112, 117, 122);
+    font-size: 12px;
+    padding-left: 122px;
+    margin: 0;
+}
+
+.search-results {
+    width:600px;
+    padding-top:20px;
+}
+
+.result-link{
+    text-decoration: none;
+}
+
+.url{ 
+    padding-bottom: 10px;
+    color: rgb(32, 33, 36);
+}
+.link {
+    color: rgb(26, 13, 171);
+    font-size: 20px;
+    text-decoration: none;
+    padding-bottom:0;
+}
+
+.result-link .link:hover {
+    text-decoration: underline;
+}
+
+.description {
+    font-size: 14px;
+    line-height: 22px;
+    width: 600px;
+    color: rgb(77, 81, 86)    ;
+}
