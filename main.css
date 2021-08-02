@@ -186,7 +186,7 @@ span{
 
 .related-searches {
     margin-left: 122px;
-    width: 600px;
+    width: 652px;
 }
 
 h1{
@@ -205,8 +205,18 @@ h2 {
     border-bottom: 1px solid gray;
 }
 
+.related-links {
+    display: flex;
+    align-content: center;
+}
+
+.fig:hover {
+    text-decoration: underline;
+}
+
 figure {
     margin-left: 0;
+    margin-right: 8px;
 }
 
 figcaption {
@@ -220,6 +230,23 @@ figcaption {
     color: black;
 }
 
-.related-links:hover {
-    text-decoration: underline;
+.related-image {
+    height: 100px;
+    width: 100px;
+}
+
+#go-daddy{
+    padding-top: 37px;
+}
+
+#weebly{
+    padding-top: 32.5px;
+}
+
+#jimdo {
+    padding-top: 31.5px;
+}
+
+#strikingly {
+    border-radius: 10%;
 }
