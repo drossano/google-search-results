@@ -261,6 +261,7 @@ figcaption {
     border: 1px lightgrey solid;
     border-radius: 20px;
     text-decoration: none;
+    margin-bottom: 20px;
 }
 
 #see-more:hover{ 
