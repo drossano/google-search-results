@@ -313,4 +313,62 @@ figcaption {
 text-decoration: underline;
 }
 
+.page-counter {
+    width: 600px;
+    margin-left: 122px;
+}
 
+.pages {
+    margin: 0 auto;
+    width: fit-content;
+    display: flex;
+    align-content: flex-start;
+    height: 40px;
+}
+
+
+
+#g {
+    background: url(images/nav_logo.webp) no-repeat;
+    background-position: -24px 0;
+    width: 28px;
+}
+
+.page-1 {
+    background: url(images/nav_logo.webp) no-repeat;
+    background-position: -53px 0;
+    width: 20px;
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.page-1 span {
+    margin-bottom: 50px;
+}
+
+.pages a{
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+.pages a:hover{
+    text-decoration: underline;
+}
+
+.page {
+    background: url(images/nav_logo.webp) no-repeat;
+    background-position: -74px 0;
+    width: 20px;
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.page span {
+    margin-bottom: 50px;
+}
