@@ -17,6 +17,7 @@ body{
 }
 
 #logo {
+    margin-left: 10px;
     display: block;
     width: 92px;
     height: 33px;
