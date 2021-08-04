@@ -402,24 +402,24 @@ text-decoration: underline;
     background: lightgrey;
 }
 
-#location {
+.location {
     margin-top: 20px;
 }
-#location strong{
+.location strong{
     color: rgb(29, 29, 29);
 }
 
-#location p{
+.location p{
     color: gray;
 }
 
-#location a{
+.location a{
     color: gray;
     text-decoration: none;
 }
 
-#location a:hover{
-    text-decoration: underline;
+.location a:hover{
+    color:rgb(29, 29, 29);
 }
 
 .footer-links {
@@ -439,5 +439,5 @@ text-decoration: underline;
 
 
 .footer-links a:hover{
-    text-decoration: underline;
+    color: rgb(29, 29, 29);
 }
