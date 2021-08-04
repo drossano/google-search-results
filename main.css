@@ -375,8 +375,13 @@ text-decoration: underline;
     text-align: center;
 }
 
+.page p{
+    color: rgb(0, 162, 255);
+}
+
 .next p{
     text-align: right;
+    color: rgb(0, 162, 255);
 }
 .next span{
     background: url(/images/nav_logo.webp) no-repeat;
