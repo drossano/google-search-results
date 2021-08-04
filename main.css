@@ -315,6 +315,7 @@ text-decoration: underline;
 
 .page-counter {
     width: 600px;
+    margin-top: 50px;
     margin-left: 122px;
 }
 
@@ -330,10 +331,6 @@ text-decoration: underline;
     padding-left: 0;
     color: black;
 }
-
-
-
-
 
 #g {
     background: url(images/nav_logo.webp) no-repeat;
