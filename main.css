@@ -72,8 +72,6 @@ body {
   padding: 10px;
 }
 
-
-
 .nav-icons {
     height: 24px;
     width: 24px;
@@ -176,6 +174,7 @@ p {
 span {
     color: rgb(95, 99, 104);
 }
+
 .link {
     color: rgb(26, 13, 171);
     font-size: 20px;
@@ -405,6 +404,7 @@ text-decoration: underline;
     text-align: right;
     color: rgb(0, 162, 255);
 }
+
 .next span {
     background: url(/images/nav_logo.webp) no-repeat;
     background-position: -96px 0;
@@ -458,7 +458,6 @@ text-decoration: underline;
     color: gray;
     text-decoration: none;
 }
-
 
 .footer-links a:hover {
     color: rgb(29, 29, 29);
