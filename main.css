@@ -317,6 +317,7 @@ text-decoration: underline;
     width: 600px;
     margin-top: 50px;
     margin-left: 122px;
+    margin-bottom: 50px;
 }
 
 .pages {
@@ -391,4 +392,11 @@ text-decoration: underline;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
+}
+
+.footer {
+    position:absolute;
+    height: 100px;
+    width: 100%;
+    background: lightgrey;
 }
