@@ -400,3 +400,23 @@ text-decoration: underline;
     width: 100%;
     background: lightgrey;
 }
+
+#location {
+    margin-top: 20px;
+}
+#location strong{
+    color: rgb(29, 29, 29);
+}
+
+#location p{
+    color: gray;
+}
+
+#location a{
+    color: gray;
+    text-decoration: none;
+}
+
+#location a:hover{
+    text-decoration: underline;
+}
