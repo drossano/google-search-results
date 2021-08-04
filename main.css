@@ -378,3 +378,15 @@ text-decoration: underline;
     text-align: center;
 }
 
+.next p{
+    text-align: right;
+}
+.next span{
+    background: url(/images/nav_logo.webp) no-repeat;
+    background-position: -96px 0;
+    width: 71px;
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
