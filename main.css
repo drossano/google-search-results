@@ -1,8 +1,9 @@
-
-
-body{
+body {
     margin: 0;
 }
+
+/* Header/Top Navbar */
+
 .ui {
     display: flex;
     align-content: center;
@@ -61,7 +62,7 @@ body{
     padding-right: 5px;
 }
 
-#mic-icon{
+#mic-icon {
     border-left: solid 1px  rgb(212, 212, 212);
 }
 
@@ -105,7 +106,7 @@ body{
     margin-top: 20px;
 }
 
-.search-options a{
+.search-options a {
     margin-right: 20px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 12px;
@@ -120,7 +121,7 @@ body{
 }
 
 
-#tools{ 
+#tools { 
     margin-left: 200px;
     margin-top:-5px ;
     padding: 5px;
@@ -142,6 +143,8 @@ body{
     top: 0;
 }
 
+/* Search Results */
+
 p {
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(112, 117, 122);
@@ -150,26 +153,27 @@ p {
     margin: 0;
 }
 
-#amount{
+#amount {
     padding-top: 5px;
     padding-bottom: 20px;
 }
+
 .search-results {
     width:600px;
     padding-top:20px;
     margin-top: 102px;
 }
 
-.result-link{
+.result-link {
     text-decoration: none;
 }
 
-.url{ 
+.url { 
     padding-bottom: 10px;
     color: rgb(32, 33, 36);
 }
 
-span{
+span {
     color: rgb(95, 99, 104);
 }
 .link {
@@ -195,13 +199,15 @@ span{
     padding-bottom: 20px;
 }
 
+/* Related Searches */
+
 .related-searches {
     margin-left: 122px;
     width: 652px;
     border-bottom: 1px solid gray;
 }
 
-h1{
+h1 {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: normal;
     font-size: 25px;
@@ -213,7 +219,7 @@ h2 {
     font-size: 16px;
 }
 
-.related-header{
+.related-header {
     border-bottom: 1px solid gray;
 }
 
@@ -247,11 +253,11 @@ figcaption {
     width: 100px;
 }
 
-#go-daddy{
+#go-daddy {
     padding-top: 37px;
 }
 
-#weebly{
+#weebly {
     padding-top: 32.5px;
 }
 
@@ -263,7 +269,7 @@ figcaption {
     border-radius: 10%;
 }
 
-#see-more{
+#see-more {
     margin: 0 auto;
     text-align: center;
     width: 276px;
@@ -275,7 +281,7 @@ figcaption {
     margin-bottom: 20px;
 }
 
-#see-more:hover{ 
+#see-more:hover { 
     background: rgb(231, 231, 231);
 }
 
@@ -284,7 +290,9 @@ figcaption {
     text-decoration: none;
 }
 
-.related-pills{
+/* Related Search Pills */
+
+.related-pills {
     width: 652px;
     margin-top: 20px;
     margin-left: 122px;
@@ -293,7 +301,7 @@ figcaption {
     grid-template-rows: repeat(4,auto);
 }
 
-.pill{
+.pill {
     margin: 4px 8px;
     text-align: left;
     width: 284px;
@@ -307,7 +315,7 @@ figcaption {
     justify-content: flex-start;
 }
 
-.pill img{
+.pill img {
     height: 24px;
     margin-right: 20px;
 }
@@ -324,6 +332,8 @@ figcaption {
 text-decoration: underline;
 }
 
+/* Page Counter */
+
 .page-counter {
     width: 600px;
     margin-top: 50px;
@@ -339,7 +349,7 @@ text-decoration: underline;
     height: 40px;
 }
 
-.pages p{
+.pages p {
     padding-left: 0;
     color: black;
 }
@@ -350,7 +360,7 @@ text-decoration: underline;
     width: 28px;
 }
 
-.page-1 span{
+.page-1 span {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -361,7 +371,7 @@ text-decoration: underline;
     height: 40px;
 }
 
-.pages a{
+.pages a {
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
     text-align: center;
@@ -372,7 +382,7 @@ text-decoration: underline;
     text-decoration: none;
 }
 
-.pages a:hover{
+.pages a:hover {
     text-decoration: underline;
 }
 
@@ -387,15 +397,15 @@ text-decoration: underline;
     text-align: center;
 }
 
-.page p{
+.page p {
     color: rgb(0, 162, 255);
 }
 
-.next p{
+.next p {
     text-align: right;
     color: rgb(0, 162, 255);
 }
-.next span{
+.next span {
     background: url(/images/nav_logo.webp) no-repeat;
     background-position: -96px 0;
     width: 71px;
@@ -404,6 +414,8 @@ text-decoration: underline;
     flex-direction: column;
     justify-content: flex-end;
 }
+
+/* Footer */
 
 .footer {
     position:absolute;
@@ -415,20 +427,20 @@ text-decoration: underline;
 .location {
     margin-top: 20px;
 }
-.location strong{
+.location strong {
     color: rgb(29, 29, 29);
 }
 
-.location p{
+.location p {
     color: gray;
 }
 
-.location a{
+.location a { 
     color: gray;
     text-decoration: none;
 }
 
-.location a:hover{
+.location a:hover {
     color:rgb(29, 29, 29);
 }
 
@@ -438,7 +450,7 @@ text-decoration: underline;
     align-items: center;
 }
 
-.footer-links a{
+.footer-links a {
     margin-top: 20px;
     margin-right: 20px;
     font-family: Arial, Helvetica, sans-serif;
@@ -448,6 +460,6 @@ text-decoration: underline;
 }
 
 
-.footer-links a:hover{
+.footer-links a:hover {
     color: rgb(29, 29, 29);
 }
