@@ -420,3 +420,23 @@ text-decoration: underline;
 #location a:hover{
     text-decoration: underline;
 }
+
+.footer-links {
+    margin-left: 122px;
+    display: flex;
+    align-items: center;
+}
+
+.footer-links a{
+    margin-top: 20px;
+    margin-right: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: gray;
+    text-decoration: none;
+}
+
+
+.footer-links a:hover{
+    text-decoration: underline;
+}
